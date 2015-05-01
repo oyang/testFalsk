@@ -1,0 +1,25 @@
+{
+  "name": "FlaskFrontend",
+  "version": "0.0.0",
+  "homepage": "https://github.com/oyang/testFalsk",
+  "authors": [
+    "Oliver Yang <oyang@sugarcrm.com>"
+  ],
+  "keywords": [
+    "angular",
+    "ui-router",
+    "rest",
+    "api"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}
