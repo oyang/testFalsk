@@ -64,3 +64,6 @@ lib/
 
 # PIP
 pip-selfcheck.json
+
+# Mac OSX
+**/.DS_Store
