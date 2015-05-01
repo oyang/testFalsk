@@ -55,3 +55,12 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Virtualenv
+bin/
+include/
+lib/
+.Python
+
+# PIP
+pip-selfcheck.json
