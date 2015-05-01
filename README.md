@@ -3,7 +3,7 @@ Make a small project to test Flask micro framework
 
 # install
 * clone this repo
-  - git clone git://github.com/oyang/testFalsk
+  - git clone git@github.com:oyang/testFalsk.git
   - cd testFlask
 * Setup virtualenv
   - virtualenv .
