@@ -22,40 +22,25 @@
 
         <script src="static/bower_components/jquery/dist/jquery.min.js"></script>
         <script src="static/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-        
+        <script src="static/bower_components/angular/angular.min.js"></script>
+        <script src="static/bower_components/angular-resource/angular-resource.min.js">
+        </script>
+        <script src="static/bower_components/angular-ui-router/release/angular-ui-router.min.js">
+        </script>
+
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
           <script type='text/javascript' src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
           <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
         <![endif]-->
     </head>
-    <body>
+    <body ng-app="app">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
+        <div class="container" ng-include="'static/app/shared/nav.html'">
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right" role="form">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
-        </div><!--/.navbar-collapse -->
-      </div>
     </nav>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
@@ -94,5 +79,6 @@
       </footer>
     </div> <!-- /container -->
 
+    <script src="static/app/app.js"></script>
     </body>
 </html>
